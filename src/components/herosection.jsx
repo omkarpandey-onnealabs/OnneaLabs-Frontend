@@ -1,9 +1,8 @@
-import React from 'react';
 
 const HeroSection = () => {
   return (
     // Outer container with Grid Background Pattern
-    <section className="relative w-full bg-white bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
+    <section className="relative w-full bg-white bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:34px_34px]">
       
       {/* Main Content Container */}
       <div className="container mx-auto px-6 py-20 lg:py-32">

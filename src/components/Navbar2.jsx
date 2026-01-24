@@ -1,18 +1,17 @@
-import React from "react";
 
-// Defined the array so the map function works
+
 const MenuItems = [
-  { id: 1, name: "Client", link: "#" },
-  { id: 2, name: "Our Work", link: "#" },
-  { id: 3, name: "Services", link: "#" },
-  { id: 4, name: "Why Us", link: "#" },
+  { id: 1, name: "Client", link: "/client" },
+  { id: 2, name: "Our Work", link: "/ourwork" },
+  { id: 3, name: "Services", link: "/services" },
+  { id: 4, name: "Why Us", link: "/whyus" },
 ];
 
 const Navbar2 = () => {
   return (
-    <div className="fixed top-6 left-0 right-0 flex justify-center z-50 px-4">
-
-      <nav className="flex items-center justify-between bg-[#111111] border border-white/10 rounded-full py-2 pl-6 pr-2 shadow-2xl w-full max-w-4xl backdrop-blur-md">
+    <div className="fixed top-0 left-0 z-50 w-full">
+      
+      <nav className="flex items-center justify-between bg-[#111111] border-b border-white/10 w-full py-4 px-6 md:px-12 shadow-2xl backdrop-blur-md">
         
         {/* Logo Section */}
         <div className="flex flex-col leading-none">
@@ -22,12 +21,12 @@ const Navbar2 = () => {
         </div>
 
         {/* Menu Links (Hidden on Mobile) */}
-        <ul className="hidden md:flex items-center gap-8">
+        <ul className="hidden md:flex items-center gap-10">
           {MenuItems.map((menuitem) => (
             <li key={menuitem.id}>
               <a
                 href={menuitem.link}
-                className="text-gray-400 text-sm font-medium hover:text-white transition-colors duration-200"
+                className="text-gray-400 text-medium font-medium hover:text-white transition-colors duration-200"
               >
                 {menuitem.name}
               </a>

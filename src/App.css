@@ -1,0 +1,24 @@
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* IMPORTANT: width must be based on content, not w-full */
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* gap belongs inside groups, not between the two halves */
+.marquee-group {
+  display: flex;
+  gap: 2.5rem;       /* same as gap-10 */
+  padding-right: 2.5rem; /* prevents seam jump */
+  flex-shrink: 0;
+}

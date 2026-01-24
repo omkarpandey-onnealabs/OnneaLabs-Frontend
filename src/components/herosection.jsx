@@ -2,7 +2,8 @@
 const HeroSection = () => {
   return (
     // Outer container with Grid Background Pattern
-    <section className="relative w-full bg-white bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:34px_34px]">
+    // <section className="relative w-full overflow-hidden bg-gradient-to-r from-orange-500 via-pink-300 to-white">
+    <section className="relative w-full bg-gradient-to-r from-orange-500 via-pink-300 to-white bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:34px_34px]">
       
       {/* Main Content Container */}
       <div className="container mx-auto px-6 py-20 lg:py-32">
@@ -21,9 +22,9 @@ const HeroSection = () => {
             </div>
 
             {/* Headline */}
-            <h1 className="text-5xl font-extrabold leading-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-5xl font-extrabold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-500 via-pink-500 to-white sm:text-6xl">
               Web Development <br />
-              <span className="text-black">Company</span>
+              <span>Company</span>
             </h1>
 
             {/* Paragraph Description */}

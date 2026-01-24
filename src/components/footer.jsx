@@ -71,13 +71,10 @@ const Footer = () => {
         </div>
 
         {/* Bottom Copyright Section */}
-        <div className="flex justify-between text-gray-400 mt-24 max-sm:flex-col max-sm:items-center">
+        <div className="flex items-center text-gray-400 mt-24 max-sm:flex-col max-sm:items-center">
           <div className="flex flex-1 justify-start items-center gap-2 font-medium cursor-pointer">
             <p>&copy; 2026 OnneaLabs. All rights reserved.</p>
           </div>
-          <p className="font-medium cursor-pointer hover:text-white transition-colors">
-            Terms & Conditions
-          </p>
         </div>
       </div>
     </footer>

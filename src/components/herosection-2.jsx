@@ -23,8 +23,8 @@ const LogoItem = ({ company }) => (
 
 const HeroSectionCompanies = () => {
   return (
-    <section className="bg-black text-white overflow-hidden py-4">
-        <div className="text-8xl font-bold text-center py-5">Our Clients</div>
+    <section className="bg-black text-white overflow-hidden py-4 h-110">
+        <div className="text-8xl font-bold text-center py-5 mt-5 mb-20">Our Clients</div>
       <div className="marquee-track">
         <div className="marquee-group">
           {companiesList.map((company) => (

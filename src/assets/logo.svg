@@ -1,0 +1,27 @@
+<svg width="200" height="200" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="80" y1="20" x2="60" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3cabce" />
+      <stop offset="100%" stop-color="#105c8c" />
+    </linearGradient>
+
+    <linearGradient id="orangeGradient" x1="50" y1="40" x2="50" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fdbf46" />
+      <stop offset="100%" stop-color="#e37b25" />
+    </linearGradient>
+    
+    <linearGradient id="darkBlueGradient" x1="40" y1="60" x2="40" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b6eb3" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+  </defs>
+
+  <path d="M30 85 L42 62 L48 85 Z" fill="url(#darkBlueGradient)" />
+
+  <path d="M42 62 L60 28 L66 85 L48 85 Z" fill="url(#orangeGradient)" />
+
+  <path d="M60 28 L66 85 L58 85 Z" fill="black" opacity="0.4" />
+
+  <path d="M60 28 L95 85 L64 85 Z" fill="url(#blueGradient)" />
+  
+</svg>

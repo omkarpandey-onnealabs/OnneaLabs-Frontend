@@ -40,7 +40,7 @@ const HeroSectionWork = () => {
       {/* --- TOP SECTION --- */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-0">
         
-        <div className="relative h-[400px] lg:h-auto w-full group cursor-pointer rounded-xl overflow-hidden border border-gray-800 transition-all duration-500 ease-out hover:z-50 hover:scale-[1.03] hover:-translate-y-2 hover:shadow-[0_20px_60px_-15px_rgba(60,171,206,0.3)] hover:border-blue-500/30">
+        <div className="relative h-[400px] lg:h-auto w-full group cursor-pointer rounded-xl overflow-hidden border border-gray-800 transition-all duration-500 ease-out hover:z-2 hover:scale-[1.03] hover:-translate-y-2 hover:shadow-[0_20px_60px_-15px_rgba(60,171,206,0.3)] hover:border-blue-500/30">
           
           <img
             src={logoImage}

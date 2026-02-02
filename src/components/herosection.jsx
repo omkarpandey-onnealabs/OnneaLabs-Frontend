@@ -1,3 +1,5 @@
+import herosectionimg from "../assets/photo-1498050108023-c5249f4df085.avif"
+
 const HeroSection = () => {
   return (
     // Outer container with Grid Background Pattern
@@ -50,7 +52,7 @@ const HeroSection = () => {
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-r from-gray-100 to-gray-50 opacity-50 blur-2xl"></div>
 
             <img
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=2072"
+              src={herosectionimg}
               alt="Web Development Workspace"
               className="relative rounded-3xl shadow-2xl transition-transform hover:-translate-y-2 duration-500 w-full object-cover"
             />

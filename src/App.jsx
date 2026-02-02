@@ -1,3 +1,4 @@
+import ContactFormSection from "./components/contactUsForm";
 import Footer from "./components/footer";
 import HeroSection from "./components/herosection";
 import HeroSectionCompanies from "./components/herosection-2";
@@ -14,6 +15,7 @@ export default function App() {
     <HeroSectionCompanies/>
     <HeroSectionWork/>
     <PriceQuoteSection/>
+    <ContactFormSection/>
     <Footer/>
     </>
   )

@@ -35,7 +35,7 @@ const TraderMadeLogo = () => (
 
 const HeroSectionWork = () => {
   return (
-    <section className="bg-black text-white w-full max-w-7xl mx-auto font-sans">
+    <section id="our-work" className="bg-black text-white w-full max-w-7xl mx-auto font-sans">
       <div className="text-white text-center font-bold text-8xl mb-20 py-5">Our Works</div>
       {/* --- TOP SECTION --- */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-0">

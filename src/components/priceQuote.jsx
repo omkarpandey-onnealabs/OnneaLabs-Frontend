@@ -14,16 +14,19 @@ const QuoteDetails = [
   },
   {
     id: 2,
-    name: "Premium",
-    price: "₹25000",
+    name: "Custom",
+    price: "Contact Us",
     popular: true,
     desc: [
-      "14-Day Delivery Cycle",
+      "30-Day Delivery Cycle",
       "Content Management (CMS)", 
       "Admin Dashboard Access", 
-      "Google Analytics Setup", 
-      "Blog & News Section",
-      "Social Media Integration",
+      "Google Analytics Setup",
+      "Full E-Commerce Suite", 
+      "Secure Payment Gateway", 
+      "Database Integration", 
+      "Priority 24/7 Support",
+      "Cloud Hosting Setup",
     ],
   },
   {
@@ -47,7 +50,7 @@ const PriceQuoteSection = () => {
     "bg-gradient-to-r from-orange-500 via-pink-500 to-white";
 
   return (
-    <div className="flex flex-row flex-wrap bg-black min-h-screen justify-around items-center gap-5">
+    <div id="services" className="flex flex-row flex-wrap bg-black min-h-screen justify-around items-center gap-5">
       {QuoteDetails.map((quote) => {
         const isPopular = quote.popular;
 

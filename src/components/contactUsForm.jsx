@@ -4,7 +4,7 @@ const ContactFormSection = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    plan: "Premium", // Default to the popular one
+    plan: "Custom", 
     message: "",
   });
 
@@ -15,7 +15,7 @@ const ContactFormSection = () => {
     "bg-clip-text text-transparent bg-gradient-to-r from-orange-500 via-pink-500 to-white";
   const gradientBg = "bg-gradient-to-r from-orange-500 to-pink-500";
 
-  const plans = ["Standard", "Premium", "Enterprise"];
+  const plans = ["Standard", "Custom", "Enterprise"];
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

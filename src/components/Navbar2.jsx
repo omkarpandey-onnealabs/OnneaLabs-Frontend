@@ -2,8 +2,8 @@
 
 const MenuItems = [
   { id: 1, name: "Client", link: "/client" },
-  { id: 2, name: "Our Work", link: "/ourwork" },
-  { id: 3, name: "Services", link: "/services" },
+  { id: 2, name: "Our Work", link: "#our-work" },
+  { id: 3, name: "Services", link: "#services" },
   { id: 4, name: "Why Us", link: "/whyus" },
 ];
 

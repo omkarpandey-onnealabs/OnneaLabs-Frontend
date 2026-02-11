@@ -36,7 +36,7 @@ const Navbar2 = () => {
 
         {/* CTA Button */}
         <a
-          href="/quote"
+          href="#contact-us"
           className="bg-white text-black font-bold text-sm rounded-full px-6 py-3 hover:bg-gray-200 transition-colors duration-200"
         >
           Get a Quote
